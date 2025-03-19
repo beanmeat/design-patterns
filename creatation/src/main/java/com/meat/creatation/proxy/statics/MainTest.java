@@ -5,7 +5,7 @@ package com.meat.creatation.proxy.statics;
  */
 public class MainTest {
     public static void main(String[] args) {
-        TikTokProxy proxy = new TikTokProxy();
+        TikTokProxy proxy = new TikTokProxy(new TcTikTok());
         proxy.tiktok();
     }
 }

@@ -7,6 +7,10 @@ public class TikTokProxy implements ManTikTok{
 
     private ManTikTok manTikTok;
 
+    public TikTokProxy(ManTikTok manTikTok) {
+        this.manTikTok = manTikTok;
+    }
+
     @Override
     public void tiktok() {
         System.out.println("前置增强...");
