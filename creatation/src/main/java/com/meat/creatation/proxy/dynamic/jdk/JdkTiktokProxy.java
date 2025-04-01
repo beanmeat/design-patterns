@@ -9,6 +9,9 @@ import java.lang.reflect.Proxy;
  */
 public class JdkTiktokProxy<T> implements InvocationHandler {
 
+    /**
+     * 代理对象
+     */
     private T target;
 
     public JdkTiktokProxy(T target) {
